@@ -3,6 +3,7 @@ import './App.css'
 import BannerSection from './components/BannerSection'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import PricingSection from './components/PricingSection'
 import StatsSection from './components/StatsSection'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar></Navbar>
       <BannerSection></BannerSection>
       <StatsSection></StatsSection>
+      <PricingSection></PricingSection>
       <Footer></Footer>
     </div>
   )
