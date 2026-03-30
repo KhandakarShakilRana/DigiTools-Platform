@@ -18,7 +18,7 @@ const BannerSection = () => {
         </p>
         <div>
           <button className="btn !bg-[#4F39F6] mr-4 border-none !text-white rounded-4xl">Explore Products</button>
-          <button className="btn mr-4 border-[#4F39F6]  !text-[#4F39F6] rounded-4xl">Watch Demo</button>
+          <button className="btn bg-white mr-4 border-[#4F39F6]  !text-[#4F39F6] rounded-4xl">Watch Demo</button>
         </div>
       </div>
       <div>
