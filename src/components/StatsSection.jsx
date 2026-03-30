@@ -2,7 +2,7 @@ import React from 'react'
 
 const StatsSection = () => {
   return (
-    <div className='!bg-[#4F39F6]'>
+    <div className='!bg-[#4F39F6] mb-[120px]'>
        <div className='
          py-10 flex justify-between items-center max-w-[800px] mx-auto'>
          <div className='flex-col text-center !bg-[#4F39F6]'>
