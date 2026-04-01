@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Basic resume builder for beginners with simple templates.",
+    "price": 5,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS-friendly templates.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Pack",
+    "description": "Complete career toolkit including resume and interview prep.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume builder",
+      "Interview questions",
+      "Career tips",
+      "LinkedIn optimization"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning portfolios to showcase your work.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Custom domains",
+      "Drag & drop builder",
+      "Responsive design"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Toolkit",
+    "description": "Tools for freelancers to manage clients and projects.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Invoice generator",
+      "Client management",
+      "Project tracking"
+    ],
+    "icon": "🧑‍💻"
+  },
+  {
+    "id": 6,
+    "name": "Premium Career Plan",
+    "description": "Yearly subscription for full access to all features.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "Portfolio builder",
+      "Interview prep",
+      "Priority support"
+    ],
+    "icon": "🌟"
+  },
+  {
+    "id": 7,
+    "name": "Cover Letter Pro",
+    "description": "Generate professional cover letters in minutes.",
+    "price": 8,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "50+ templates",
+      "AI suggestions",
+      "Download PDF"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 8,
+    "name": "Job Tracker",
+    "description": "Track your job applications and progress easily.",
+    "price": 6,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Status updates",
+      "Reminders"
+    ],
+    "icon": "📊"
+  }
+]

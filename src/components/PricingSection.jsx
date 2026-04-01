@@ -14,9 +14,9 @@ const PricingSection = () => {
       <div className="flex flex-col justify-center items-center md:flex-row gap-2">
         <div className="card w-96 bg-while shadow-sm text-black">
           <div className="card-body">
-            <span className="badge badge-xs badge-warning">Most Popular</span>
+            
             <div className="flex justify-between">
-              <h2 className="text-3xl font-bold">Premium</h2>
+              <h2 className="text-3xl font-bold">Starter</h2>
               <span className="text-xl">$0/mo</span>
             </div>
             <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -250,9 +250,9 @@ const PricingSection = () => {
         </div>
         <div className="card w-96 bg-white shadow-sm text-black">
           <div className="card-body">
-            <span className="badge badge-xs badge-warning">Most Popular</span>
+            
             <div className="flex justify-between">
-              <h2 className="text-3xl font-bold">Premium</h2>
+              <h2 className="text-3xl font-bold">Enterprise</h2>
               <span className="text-xl">$99/mo</span>
             </div>
             <ul className="mt-6 flex flex-col gap-2 text-xs">

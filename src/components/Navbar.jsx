@@ -1,7 +1,7 @@
 import React from 'react'
 import CartImg from '../assets/shopping-cart.png'
 
-const Navbar = () => {
+const Navbar = ({cartItems}) => {
   return (
     <div className='max-w-[1200px] flex mx-auto justify-between items-center py-[16px] '>
         <div className='text-2xl font-bold'>DigiTools</div>
@@ -13,7 +13,11 @@ const Navbar = () => {
             <li>FAQ</li>
         </div>
         <div className='flex gap-5 items-center '>
-            <img className='h-4 ' src={CartImg} alt="" />
+            <div className='relative'>
+              <img className='h-4 ' src={CartImg} alt="" />
+              <div className='absolute -top-2 -right-1 bg-red-600 rounded-full text-[9px] text-white px-1'>{cartItems.length
+                }</div>
+            </div>
             <p>Login</p>
             <button className="btn !bg-gradient-to-r !from-[#4F39F6] !to-[#9514FA] !text-white px-4 py-3 !rounded-4xl border-none">Get Started</button>
         </div>
