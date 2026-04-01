@@ -1,16 +1,55 @@
-# React + Vite
+# 🚀 DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern platform to explore, browse, and buy tools online easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Description
 
-## React Compiler
+DigiTools Platform is a user-friendly web application that allows users to discover, filter, and purchase tools efficiently. It offers a clean, responsive interface with smooth interactions, making tool shopping seamless and enjoyable.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React  
+- 🎨 Tailwind CSS  
+- 💡 JavaScript (ES6+)  
+- 🌐 HTML5 & CSS3  
+
+---
+
+## ✨ Features
+
+- 🔥 **Add to Cart**: Easily add tools to your shopping cart with instant feedback.  
+- 🎯 **Filter Tools**: Filter tools by categories like “New”, “Popular”, or “Best Seller”.  
+- ⚡ **Responsive Design**: Works perfectly on mobile, tablet, and desktop devices.  
+
+---
+
+## 📸 Screenshots (Optional)
+
+_Add screenshots of your platform here to make it visually appealing._
+
+---
+
+## 🚀 Live Demo
+
+👉 [View Live Demo](#)  
+
+---
+
+## 📂 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/digitools-platform.git
+
+# Go to project folder
+cd digitools-platform
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
