@@ -5,7 +5,7 @@ import RocketImg from "../assets/rocket.png";
 
 const GetStated = () => {
   return (
-    <div className="text-center mb-[120px] mx-6">
+    <div className="text-center mb-30 mx-6">
       <div className="mb-8 ">
         <h1 className="text-[40px] mb-4 font-semibold">
           Get Started in 3 Steps

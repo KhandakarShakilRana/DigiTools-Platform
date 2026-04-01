@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const ToolsCart = ({ cartItems ,removeFromCart ,setFilter ,filter,clearCart}) => {
 
@@ -25,7 +26,7 @@ console.log(totalPrice);
             <p className="text-[#627382] text-[16px]">${cartItem.price}</p>
           </div>
         </div>
-        <h1 onClick={()=> removeFromCart(cartItem.id)} className="text-[#FF3980] font-semibold text-[18px]">Remove</h1>
+        <h1 onClick={()=> {removeFromCart(cartItem.id) ; toast.success(`${cartItem.icon} ${cartItem.name}  Removed From The Cart`)}} className="text-[#FF3980] font-semibold text-[18px]">Remove</h1>
       </div>
       ))}
         </div> : <button onClick={() => {setFilter("product")}} className={filter === "product" ? "btn bg-[#4F39F6] mr-4 border-none text-white rounded-4xl" : "btn bg-white mr-4 border-[#4F39F6]  text-[#4F39F6] rounded-4xl" }>Please Add Some Products</button>
@@ -35,7 +36,7 @@ console.log(totalPrice);
         <h1 className="text-[#627382]">Total : </h1>
         <h1 className="font-bold text-[#101727]">${totalPrice}</h1>
       </div>
-      <button onClick={() => clearCart()} className="btn bg-[#4F39F6] mr-4 border-none text-white rounded-4xl w-full">Proceed To Checkout</button>
+      <button onClick={() => {clearCart(); toast.success("Payout Successfull")} } className="btn bg-[#4F39F6] mr-4 border-none text-white rounded-4xl w-full">Proceed To Checkout</button>
       
       
 
