@@ -21,8 +21,9 @@ DigiTools Platform is a user-friendly web application that allows users to disco
 
 ## ✨ Features
 
-- 🔥 **Add to Cart**: Easily add tools to your shopping cart with instant feedback.  
+- 🔥 **Add to Cart**: Easily add tools to your shopping cart with instant feedback using React Toastify notifications.  
 - 🎯 **Filter Tools**: Filter tools by categories like “New”, “Popular”, or “Best Seller”.  
+- 🔔 **Toast Notifications**: Beautiful toast alerts for actions like adding items to cart, improving user experience.  
 - ⚡ **Responsive Design**: Works perfectly on mobile, tablet, and desktop devices.  
 
 ---
