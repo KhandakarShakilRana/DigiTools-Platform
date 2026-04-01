@@ -1,4 +1,5 @@
 import React from 'react'
+import { toast } from 'react-toastify'
 
 const ToolsCard = ({tools, addToCart,disabledIds}) => {
     
@@ -19,7 +20,7 @@ const ToolsCard = ({tools, addToCart,disabledIds}) => {
         <div className='mb-4'>{
            tool.features.map(feature=> <><li className='list-none text-[#627382]'>$$${feature}</li></>)
             }</div>
-        <button onClick={() =>  addToCart(tool) } disabled={isDisabled} className="btn bg-[#4F39F6] mr-4 border-none text-white rounded-4xl w-full">{isDisabled ? "Added" : "Buy Now"}</button>
+        <button onClick={() =>  {addToCart(tool); toast.success(`${tool.icon} ${tool.name} Added in The Cart`)} } disabled={isDisabled} className="btn bg-[#4F39F6] mr-4 border-none text-white rounded-4xl w-full">{isDisabled ? "Added" : "Buy Now"}</button>
             </div>
                 )
             })

@@ -2,8 +2,8 @@ import React from 'react'
 
 const ReadyToStart = () => {
   return (
-    <div className='bg-[#4F39F6] py-[120px] text-center text-white'>
-        <div className='mb-8'>
+    <div className='bg-[#4F39F6] py-[120px] text-center text-white '>
+        <div className='mb-8 mx-6'>
             <h1 className='text-[40px] mb-4 font-semibold'>
             Ready to Transform Your Workflow?
         </h1>

@@ -10,6 +10,8 @@ import ReadyToStart from './components/ReadyToStart'
 import StatsSection from './components/StatsSection'
 import Tools from './components/Tools'
 import { useEffect } from 'react'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify'
 
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
       <PricingSection></PricingSection>
       <ReadyToStart></ReadyToStart>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   )
 }
