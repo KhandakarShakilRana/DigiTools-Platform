@@ -27,29 +27,7 @@ DigiTools Platform is a user-friendly web application that allows users to disco
 
 ---
 
-## 📸 Screenshots (Optional)
-
-_Add screenshots of your platform here to make it visually appealing._
-
----
-
 ## 🚀 Live Demo
 
-👉 [View Live Demo](#)  
+👉 [View Live Demo](https://digitools-platform-byshakil.netlify.app/)  
 
----
-
-## 📂 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/digitools-platform.git
-
-# Go to project folder
-cd digitools-platform
-
-# Install dependencies
-npm install
-
-# Run the project
-npm run dev
