@@ -3,7 +3,7 @@ import BannerImg from "../assets/banner.png";
 
 const BannerSection = () => {
   return (
-    <div className="px-4 my-15 max-w-[1200px] text-center md:text-left mx-auto flex md:flex-row justify-between items-center flex-col">
+    <div className="px-4 my-15 max-w-[1200px] text-center lg:text-left mx-auto flex lg:flex-row justify-between items-center flex-col">
       <div className="">
         <div className="mb-6">
           <h1 className="bg-[#E1E7FF] text-[#4F39F6] inline px-4 py-2 rounded-4xl font-semibold">
@@ -11,7 +11,7 @@ const BannerSection = () => {
         </h1>
         </div>
        <div className="mb-6">
-         <h1 className="text-[36px] md:text-[72px] font-semibold leading-tight">
+         <h1 className="text-[36px] lg:text-[72px]  font-semibold leading-tight">
           Supercharge Your <br /> Digital Workflow
         </h1>
        </div>
