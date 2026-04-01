@@ -35,7 +35,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>High-resolution image generation</span>
+                <span>Access to 10 free tools</span>
               </li>
               <li>
                 <svg
@@ -52,7 +52,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Customizable style templates</span>
+                <span>Basic templates</span>
               </li>
               <li>
                 <svg
@@ -69,7 +69,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Community support</span>
               </li>
               <li>
                 <svg
@@ -86,7 +86,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>AI-driven image enhancements</span>
+                <span>1 project per month</span>
               </li>
               <li className="opacity-50">
                 <svg
@@ -153,7 +153,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>High-resolution image generation</span>
+                <span>Access to all premium tools</span>
               </li>
               <li>
                 <svg
@@ -170,7 +170,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Customizable style templates</span>
+                <span>Unlimited templates</span>
               </li>
               <li>
                 <svg
@@ -187,7 +187,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Priority support</span>
               </li>
               <li>
                 <svg
@@ -204,7 +204,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>AI-driven image enhancements</span>
+                <span>Unlimited projects</span>
               </li>
               <li className="opacity-50">
                 <svg
@@ -239,7 +239,7 @@ const PricingSection = () => {
                   />
                 </svg>
                 <span className="line-through">
-                  Real-time collaboration tools
+                  Cloud sync
                 </span>
               </li>
             </ul>
@@ -271,7 +271,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>High-resolution image generation</span>
+                <span>Everything in Pro</span>
               </li>
               <li>
                 <svg
@@ -288,7 +288,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Customizable style templates</span>
+                <span>Team collaboration</span>
               </li>
               <li>
                 <svg
@@ -305,7 +305,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Batch processing capabilities</span>
+                <span>Custom integrations</span>
               </li>
               <li>
                 <svg
@@ -322,12 +322,12 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>AI-driven image enhancements</span>
+                <span>Dedicated support</span>
               </li>
-              <li className="opacity-50">
+              <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-base-content/50"
+                  className="size-4 me-2 inline-block text-success"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -339,12 +339,12 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span className="line-through">Seamless cloud integration</span>
+                <span >SLA guarantee</span>
               </li>
-              <li className="opacity-50">
+              <li className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-4 me-2 inline-block text-base-content/50"
+                  className="size-4 me-2 inline-block text-success"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -356,7 +356,7 @@ const PricingSection = () => {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span className="line-through">
+                <span>
                   Real-time collaboration tools
                 </span>
               </li>
