@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingSection = () => {
   return (
-    <div className="mb-[120px]">
+    <div className="mb-30">
       <div className="text-center">
         <h1 className="text-[#101727] text-[48px] font-semibold mb-3">
           Simple, Transparent Pricing
@@ -11,7 +11,7 @@ const PricingSection = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="flex flex-col justify-center items-center md:flex-row gap-2">
+      <div className="flex justify-center items-center flex-wrap gap-2">
         <div className="card w-96 bg-while shadow-sm text-black">
           <div className="card-body">
             
